@@ -15,7 +15,7 @@ public class BubbleSort {
 		return ar;
 	}
 	public static void main(String[] args) {
-		int[] ar = {5,4,3,7,0,1};
+		int[] ar = {5,4,3,7,0,1,11};
 		ar = bSort(ar);
 		System.out.println(Arrays.toString(ar));
 	}
